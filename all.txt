@@ -1,0 +1,13 @@
+root Dockerfile save
+docker build -t img .
+docker images--verify
+docker run -d -p 8080:8080(docfp) im
+docker login u user
+docker tag im user/img
+docker push uset/img
+
+np docker-compose.yml
+save 
+docker  run -d -p 8085:8080 img(dc)
+docker exec -it img bin/bash
+docker run -d -p 8080:8080 img
