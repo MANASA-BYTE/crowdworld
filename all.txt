@@ -1,4 +1,4 @@
-//root
+//root dir
 root Dockerfile save
 docker build -t img .
 docker images--verify
